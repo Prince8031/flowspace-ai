@@ -1,0 +1,6 @@
+{
+  "name": "FlowSpace AI",
+  "description": "FlowSpace AI: Plan • Focus • Achieve. A premium personal workspace combining dynamic tasks, a habit tracker, pomodoro focus timer, intuitive interactive planner calendars, and elegant memo notes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

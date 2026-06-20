@@ -1,0 +1,41 @@
+{
+  "name": "FlowSpace AI",
+  "short_name": "FlowSpace",
+  "description": "FlowSpace AI: Plan • Focus • Achieve with ambient neural flows.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#7C3AED",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot-mobile.png",
+      "sizes": "450x800",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "FlowSpace AI Mobile Analytics"
+    },
+    {
+      "src": "/screenshots/screenshot-desktop.png",
+      "sizes": "800x450",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "FlowSpace AI Desktop Ecosystem"
+    }
+  ]
+}

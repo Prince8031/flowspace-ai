@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient matching the splash layout theme -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1145" />
+      <stop offset="50%" stop-color="#4C1D95" />
+      <stop offset="100%" stop-color="#701A75" />
+    </linearGradient>
+    
+    <!-- Sparkle core glow -->
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E9D5FF" />
+      <stop offset="40%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#6C3BFF" />
+    </linearGradient>
+
+    <!-- Shadow filter for the sparkle icon -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#6C3BFF" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Base canvas with rounded squircle shape -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Abstract design lines in background to denote "Flow" and "Space" -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2" />
+  <circle cx="256" cy="256" r="215" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1.5" stroke-dasharray="10 15" />
+  <circle cx="256" cy="256" r="130" fill="none" stroke="rgba(108,59,255,0.2)" stroke-width="4" />
+
+  <!-- Modern aesthetic geometric crosshair corners -->
+  <path d="M 80,140 L 80,80 L 140,80" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" stroke-linecap="round" />
+  <path d="M 432,140 L 432,80 L 372,80" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" stroke-linecap="round" />
+  <path d="M 80,372 L 80,432 L 140,432" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" stroke-linecap="round" />
+  <path d="M 432,372 L 432,432 L 372,432" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Signature Sparkles "AI" Emblem with glow shadow -->
+  <g filter="url(#dropShadow)" transform="translate(146, 146)">
+    <!-- Main Sparkle Symbol -->
+    <path d="M 110,0 C 110,75 145,110 220,110 C 145,110 110,145 110,220 C 110,145 75,110 0,110 C 75,110 110,75 110,0 Z" 
+          fill="url(#glowGrad)" />
+    
+    <!-- Secondary glowing sparkle on top-right -->
+    <path d="M 180,35 C 180,50 187,57 202,57 C 187,57 180,64 180,79 C 180,64 173,57 158,57 C 173,57 180,50 180,35 Z" 
+          fill="#F3E8FF" opacity="0.9" />
+          
+    <!-- Small sparkle on bottom-left -->
+    <path d="M 45,160 C 45,170 50,175 60,175 C 50,175 45,180 45,190 C 45,180 40,175 30,175 C 40,175 45,170 45,160 Z" 
+          fill="#F3E8FF" opacity="0.85" />
+  </g>
+</svg>
